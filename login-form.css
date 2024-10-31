@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-size: 14px;
+    background: #f2f2f2;
+}
+
+.container {
+    background: white;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0px;
+    border-top: 6px solid thistle;
+     border-bottom: 6px solid rgb(133, 106, 106); 
+    border-left: 6px solid thistle; 
+    border-right: 6px solid rgb(119, 103, 103);
+    border-radius: 40px;
+    box-shadow: 0 0 7px 5px rgba(247, 166, 166, 0.5);
+}
+
+.container h2 {
+    font-size: 35px;
+    text-decoration: underline;
+    text-decoration-color: maroon;
+    line-height: 35px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.input-name {
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+
+}
+
+.lock {
+    padding: 8px 11px;
+}
+
+.name {
+    width: 45%;
+    padding: 8px 0px 8px 40px;
+}
+
+.input-name span {
+    margin-left: 35px;
+}
+
+.tex-name {
+    width: 100%;
+    padding: 8px 0px 8px 40px;
+}
+
+.input-name i {
+    position: absolute;
+   
+    font-size: 35px;
+    color: rgb(133, 60, 60);
+    border-right: 1px solid #cccccc;
+
+}
+
+.email {
+    padding: 1px;
+    
+}
+
+.tex-name,
+.name {
+    border: 1px solid grey;
+    outline: none;
+}
+
+.tex-name:hover,
+.name:hover {
+    background-color: rgb(248, 244, 248);
+
+}
+
+.tex-name:focus,
+.name:focus {
+
+    border: 1px solid maroon;
+}
+
+.button{
+    background-color: thistle;
+    color: maroon;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+ cursor:pointer;
+ margin-bottom: 10px;
+}
+.button >a{text-decoration: none;}
+.button:hover{
+    background-color: rosybrown;
+}
+
+img {
+    height: 100%;
+     width: 100%; 
+      opacity: .7; 
+     left: 0;
+     top: 0;
+     z-index: -1;
+     position: absolute;
+ }
+ @media(max-width:1000px){
+    .content{width: 45%;}
+}
+@media(max-width:750px){
+    .content{
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="newfooter.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+.colum{
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+.price{
+    list-style-type: none;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+    transition: 0.3s;
+}
+.price:hover{
+    box-shadow: 0 8px 12px 0 black;
+}
+.price .herder{
+    background-color:  black;
+    color: aliceblue;
+    font-size: 25px;
+}
+.price li{
+    border-bottom: 1px solid rgb(184, 161, 161);
+    padding: 20px;
+    text-align: center;
+}
+.price .grey{
+    background-color: rgb(182, 245, 245);
+    font-size: 20px;
+}
+.btn{
+    background-color: rgb(4, 63, 63);
+    color: black;
+    border-radius: 20px 20px 20px 20px ;
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+button{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(182, 245, 245);
+    background-color:rgb(4, 63, 63);
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 20px 20px 20px 20px;
+   
+}
+@media(max-width:1000px){
+    div{width: 45%;}
+}
+@media(max-width:750px){
+    div{
+        width: 100%;
+    }
+}
+    </style>
+</head>
+<body>
+    
+  <center>  <h2>Here are Discounts listed</h2></center>
+  <div>
+    <div class="colum">
+        <ul class="price">
+        <li class="header" style="background-color: rgb(19, 105, 105);">Basic</li>
+        <li class="grey">$9.99% Discount</li>
+        <li>10000 In Store</li>
+        <li>10 color available</li>
+        <li>10 Day Limited Offeer</li>
+        <li class="grey"><a href="#" class="btn" >Singup</a></li>
+    </ul>
+    </div>
+    <div class="colum">
+        <ul class="price">
+        <li class="header" style="background-color: rgb(19, 105, 105);">Premium</li>
+        <li class="grey">$15.99% Discount</li>
+        <li>1000 In Store</li>
+        <li>12 color available</li>
+        <li>20 Day Limited Offeer</li>
+        <li class="grey"><a href="#" class="btn" >Singup</a></li>
+    </ul>
+    </div>
+    <div class="colum">
+        <ul class="price">
+        <li class="header" style="background-color: rgb(19, 105, 105);">After End of Offer Discount</li>
+        <li class="grey">$25.99% Discount</li>
+        <li>500 In Store</li>
+        <li>5 color available</li>   
+        <li>8 Day Limited Offeer</li>
+        <li class="grey"><a href="#" class="btn">Singup</a></li>
+    </ul>
+    </div>
+</div>
+
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img src="eagel.jpg" alt=" logo" class="logo" width="5%";>
+                <p>Subscribe Trandy things </p>
+            </div>
+            <div class="col">
+                <h3>Office <hr></h3>
+                <p>Whitefiled, Karachi</p>
+                <p>Sindh, PTN 560066,Pakistan</p>
+                <p class="email-id">Ali125@gmail.com</p>
+                <p> 0300586895</p>
+            </div>
+            <div class="col">
+                <h3>Links <hr></h3>
+                <ul>
+                    <li><a href="product-cards.html">Home</a></li>
+                    <li><a href="services-price-table.html">Services</a></li>
+                    <li><a href="feed-back-prodcard.html">About Us</a></li>
+                    <li><a href="contact-fipcard.html">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter</h3>
+                <form >
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email"  placeholder="Enter your email id" required>
+                    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+
+                </div>
+            </div>
+        
+        </div>
+    </footer>
+
+</body>
+</html>

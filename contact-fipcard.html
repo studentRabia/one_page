@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="newfooter.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+            box-sizing: border-box;
+            margin-bottom: 0;
+            padding-bottom: 0;
+
+        }
+
+        ul li {
+            list-style: none;
+            margin-bottom: 12px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        body {
+            background: #eef8ff;
+            background-color: thistle;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .master-div {
+            background-color: transparent;
+            border: 2px solid black;
+            width: 400px;
+            height: 300px;
+        }
+
+        .inner-div {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            box-shadow: 0 4px 8pz 0 black;
+        }
+
+        .master-div:hover .inner-div {
+            transform: rotateY(180deg);
+        }
+
+        .front-div,
+        .back-div {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+        }
+
+        .front-div {
+            background-color: thistle;
+            color: black;
+        }
+
+        .back-div {
+            background-color: rgb(126, 79, 126);
+
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+
+        <h1>Card flip with Contact</h1>
+        <h3> hover over the image below:</h3>
+        <div class="master-div">
+            <div class="inner-div">
+                <div class="front-div">
+                    <img src="eagel.jpg" alt="pic" height="295px" width="395px">
+                </div>
+                <div class="back-div">
+                    <h3>Office
+                        <hr>
+                    </h3>
+                    <p>Whitefiled, Karachi</p>
+                    <p>Sindh, PTN 560066,Pakistan</p>
+                    <p>Ali125@gmail.com</p>
+                    <h3>Links<hr></h3>
+              
+                    <ul>
+                        <li><a href="product-cards.html">Home</a></li>
+                        <li><a href="services-price-table.html">Services</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="feed-back-prodcard.html">Contacts</a></li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/"> <i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://web.whatsapp.com/"> <i class="fa-brands fa-whatsapp"></i></a>
+                        <a href=""> <i class="fa-brands fa-pinterest"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </center>
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img src="eagel.jpg" alt=" logo" class="logo" width="5%" ;>
+                <p>Subscribe Trandy things </p>
+            </div>
+            <div class="col">
+                <h3>Office
+                    <hr>
+                </h3>
+                <p>Whitefiled, Karachi</p>
+                <p>Sindh, PTN 560066,Pakistan</p>
+                <p class="email-id">Ali125@gmail.com</p>
+                <p>0300125256</p>
+              
+            </div>
+            <div class="col">
+                <h3>Links
+                    <hr>
+                </h3>
+                <ul>
+                    <li><a href="product-cards.html">Home</a></li>
+                    <li><a href="services-price-table.html">Services</a></li>
+                    <li><a href="feed-back-prodcard.html">About Us</a></li>
+                    <li><a href="map.html">Location</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter</h3>
+                <form>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email id" required>
+                    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://web.whatsapp.com/"> <i class="fa-brands fa-whatsapp"></i></a>
+                    <i class="fa-brands fa-pinterest"></i>
+
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

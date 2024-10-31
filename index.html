@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <style>
+      *{
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: white;
+           
+         
+   
+        }
+body{
+    background-color: thistle;
+}
+ul{
+    list-style-type: none;
+    background-color: black;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+
+}
+ul li .dropdown li {
+    display: block;
+}
+ul li .dropdown {
+width: 110%;
+background-color: black;
+position: absolute;
+z-index: 999;
+display: none;
+}
+ul li:hover .dropdown{
+    display: block;
+}
+ul #inner a:hover{
+    background-color:rgb(63, 63, 63) ;
+}
+#search{
+    float: right;
+    color: aliceblue;
+    padding: 12px 65px;
+    border-radius: 25px;
+}
+.input{
+    border: 2px solid black;
+    padding: 6px;
+    margin:8px ;
+}
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+
+    <ul>
+        <li><a href="login-form.html">Home</a></li>
+        <li><a href="services-price-table.html">Services</a></li>
+        <li><a href="#">Categories</a>
+        <ul class="dropdown">
+            <li id="inner"><a href="">Accessories</a></li>
+            <li id="inner"><a href="">Cloth</a></li>
+            <li id="inner"><a href="">Bags</a></li>
+            <li id="inner"><a href="">Footwear</a></li>
+            <li id="inner"><a href="services-price-table.html">Discount</a></li>
+        </ul>
+        
+        </li>
+        <li><a href="contact-fipcard.html">Contact Us</a></li>
+    <div class="search">
+        <input type="text" name="search" id="search" placeholder="Search ">
+    </div>
+    </ul>
+</header>
+
+
+
+    <div class="gallery">
+
+
+        <div class="content">
+            <img src="shoes.jpg" alt="pic of shoes">
+            <h3>Shoes</h3>
+            <p>The right pair of shoes can do a lot. Make an impression, boost your confidence, protect your feet.</p>
+            <h6>$100.0</h6>
+            <ul>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star "></i></li>
+            </ul>
+            <button class="buy-1">Buy Now<i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+
+        <div class="content">
+            <img src="iphone-1.jpg" alt="pic of shoes">
+            <h3>Iphone</h3>
+            <p>The iPhone is a smartphone made by Apple , iPod, digital camera and cellular phone into one device</p>
+            <h6>$9000.0</h6>
+            <ul>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked "></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+            </ul>
+            <button class="buy-2">Buy Now<i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+        <div class="content">
+            <img src="handbag.jpg" alt="pic of shoes">
+            <h3>Handag</h3>
+            <p>The right handbag can do a lot. Make an impression, boost your confidence, protect your self.</p>
+            <h6>$400.0</h6>
+            <ul>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star "></i></li>
+                <li ><i class="fa fa-star "></i></li>
+                <li ><i class="fa fa-star "></i></li>
+            </ul>
+            <button class="buy-3">Buy Now<i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+        <div class="content">
+            <img src="dress pic1.jpg" alt="pic of shoes">
+            <h3>Dress</h3>
+            <p> Pakistan’s Top Leading Online Fashion give confidence and proud .The Fashion of today</p>
+            <h6>$600.0</h6>
+            <ul>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+            </ul>
+            <button class="buy-4">Buy Now<i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+      
+        <div class="content">
+            <img src="jeans pic3.jpeg" alt="pic of shoes">
+            <h3>Jeans</h3>
+            <p>Wear denim, Tailored Jeans. Soft and comfortable febric.The fashion of today</p>
+            <h6>$1400.0</h6>
+            <ul>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star "></i></li>
+            </ul>
+            <button class="buy-5">Buy Now<i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+        <div class="content">
+            <img src="dress1.webp" alt="pic of shoes">
+            <h3>Dress</h3>
+            <p>Pakistan’s Top Leading Online Fashion give confidence and proud .The Fashion of today</p>
+            <h6>$1600.0</h6>
+            <ul>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+            </ul>
+            <button class="buy-6">Buy Now<i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+        <div class="content">
+            <img src="kids watch.webp" alt="pic of shoes">
+            <h3>Watch</h3>
+            <p>The Watch can do a lot. Make an impression, boost your confidence, protect your time.</p>
+            <h6>$300.0</h6>
+            <ul>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked "></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star "></i></li>
+            </ul>
+            <button class="buy-7">Buy Now<i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+        <div class="content">
+            <img src="toy.jpg" alt="pic of shoes">
+            <h3>Toy Tady</h3>
+            <p>Teddy bears are stuffed toys that are loved by many.Teddy bears come in various sizes and colours.
+            <h6>$200.0</h6>
+            <ul>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star checked"></i></li>
+                <li ><i class="fa fa-star "></i></li>
+                <li ><i class="fa fa-star "></i></li>
+                <li ><i class="fa fa-star "></i></li>
+            </ul>
+            <button class="buy-8">Buy Now<i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footermain">
+            <div class="socialicon">
+                <a href="https://web.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="feed-back-prodcard.html"><i class="fa-solid fa-link"></i></a>
+                <a href="feed-back-prodcard.html"><i class="fa-sharp fa-solid fa-reply-all"></i></a>
+            </div>
+
+        </div>
+        <div class="footer">
+            <p>Copyright &copy;2024 Designed by Rabia.  <span class="designer"></span></p>
+            <p> <a href="map.html">Location</a><i class="fa-solid fa-location-crosshairs"></i></a> </p>
+     
+        </div>
+    </footer>
+</body>
+
+</html>

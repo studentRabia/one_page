@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: black;
+}
+.footermain{
+    width: 100%;
+    padding: 70px 30pz 0px;
+}
+.socialicon{
+    display: flex;
+    justify-content: center;
+}
+.socialicon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicon a i{
+    font-size: 2rem;
+    color: black;
+    opacity: .6;
+}
+.socialicon a:hover{
+    background-color: #111;
+    transition: 0.5s;
+    color: white;
+}
+.footer{
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+span.designer{
+    opacity: 0.6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400px;
+    margin: 0px 5px;
+}
+@media(max-width:1000px){
+    .content{width: 45%;}
+}
+@media(max-width:750px){
+    .content{
+        width: 100%;
+    }
+}
